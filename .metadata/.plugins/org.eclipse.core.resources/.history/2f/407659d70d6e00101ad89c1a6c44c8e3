@@ -1,0 +1,21 @@
+package com.demo;
+
+public class Student {
+
+	private int id;
+	private String name;
+	private int age;
+	private String city;
+	public Student() {
+		
+	}
+	public Student(int id, String name, int age, String city) {
+		super();
+		this.id = id;
+		this.name = name;
+		this.age = age;
+		this.city = city;
+	}
+	
+	
+}
