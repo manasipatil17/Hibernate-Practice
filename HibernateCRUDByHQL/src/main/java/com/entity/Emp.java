@@ -12,12 +12,10 @@ public class Emp {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
 	private String name;
-	private String age;
+	private int age;
 	public Emp() {
-		super();
-		// TODO Auto-generated constructor stub
 	}
-	public Emp(int id, String name, String age) {
+	public Emp(int id, String name, int age) {
 		super();
 		this.id = id;
 		this.name = name;
@@ -35,16 +33,17 @@ public class Emp {
 	public void setName(String name) {
 		this.name = name;
 	}
-	public String getAge() {
+	public int getAge() {
 		return age;
 	}
-	public void setAge(String age) {
+	public void setAge(int age) {
 		this.age = age;
 	}
 	@Override
 	public String toString() {
 		return "Emp [id=" + id + ", name=" + name + ", age=" + age + "]";
 	}
+	
 	
 	
 	
