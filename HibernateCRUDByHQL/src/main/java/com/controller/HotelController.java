@@ -11,6 +11,7 @@ public class HotelController {
 		HotelService hs= new HotelService();
 //	    hs.insertData(h);
 //		hs.updateData(h);
-		hs.fetchSingleeData(h);
+//		hs.fetchSingleeData(h);
+		hs.fetchAllData(h);
 	}
 }
