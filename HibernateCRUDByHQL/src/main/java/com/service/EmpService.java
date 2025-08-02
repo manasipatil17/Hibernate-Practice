@@ -10,4 +10,16 @@ public class EmpService {
 		EmpDao ed = new EmpDao();
 		ed.insertData(e);
 	}
+public void updateData(Emp e) {
+		
+		EmpDao ed = new EmpDao();
+		ed.updateData(e);
+	}
+
+public void deleteData(Emp e) {
+	
+	EmpDao ed = new EmpDao();
+	ed.deleteData(e);
+}
+
 }

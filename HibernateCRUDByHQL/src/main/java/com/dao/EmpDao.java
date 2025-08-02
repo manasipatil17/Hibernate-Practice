@@ -35,5 +35,36 @@ public class EmpDao {
 		cfg.configure();
 		cfg.addAnnotatedClass(Emp.class);
 		SessionFactory sf=cfg.buildSessionFactory();
+	    Session ss= sf.openSession();
+	    Transaction ts= ss.beginTransaction();
+	    
+	    String hqlquery ="update Emp set name=:myname, age=:myage where id=:myid";
+	    MutationQuery q= ss.createMutationQuery(hqlquery);
+	    q.setParameter("myname", "om");
+	    q.setParameter("myage", 23);
+	    q.setParameter("myid", 1);
+	    q.executeUpdate();
+	    System.out.println("Data is updated...");
+	    ts.commit();
+	    ss.close();
+	
+	}
+	
+	public void deleteData(Emp e) {
+		Configuration cfg=new Configuration();
+		cfg.configure();
+		cfg.addAnnotatedClass(Emp.class);
+		SessionFactory sf=cfg.buildSessionFactory();
+	    Session ss= sf.openSession();
+	    Transaction ts= ss.beginTransaction();
+	    
+	    String hqlquery ="delete from Emp where id=:myid";
+	    MutationQuery q= ss.createMutationQuery(hqlquery);
+	    q.setParameter("myid", 1);
+	    q.executeUpdate();
+	    System.out.println("Data is deleted...");
+	    ts.commit();
+	    ss.close();
+	
 	}
 }
