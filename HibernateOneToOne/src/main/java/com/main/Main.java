@@ -30,6 +30,8 @@ public class Main {
 		e1.setL(l1);
 		ss.persist(e1);
 		
+		EmpOneToOne e2=ss.get(EmpOneToOne.class, 1);
+	   System.out.println(e2);
 		ts.commit();
 		ss.close();
 		
