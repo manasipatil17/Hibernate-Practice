@@ -4696,3 +4696,9 @@ java.lang.Exception: A resource exists with a different case: '/HibernateCRUDByH
 
 !ENTRY org.eclipse.m2e.logback.appender 2 0 2025-08-02 11:57:18.236
 !MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-08-02 11:57:56.185
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2025-08-02 11:57:56.193
+!MESSAGE Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
