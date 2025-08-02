@@ -12,6 +12,7 @@ public class HotelController {
 //	    hs.insertData(h);
 //		hs.updateData(h);
 //		hs.fetchSingleeData(h);
-		hs.fetchAllData(h);
+//		hs.fetchAllData(h);
+		hs.deleteData(h);
 	}
 }
