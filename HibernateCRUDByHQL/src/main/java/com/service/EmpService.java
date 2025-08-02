@@ -22,4 +22,15 @@ public void deleteData(Emp e) {
 	ed.deleteData(e);
 }
 
+public void fetchSigleData(Emp e) {
+	
+	EmpDao ed = new EmpDao();
+	ed.fetchSingleData(e);
+}
+public void fetchAllData(Emp e) {
+	
+	EmpDao ed = new EmpDao();
+	ed.fetchAllData(e);
+}
+
 }

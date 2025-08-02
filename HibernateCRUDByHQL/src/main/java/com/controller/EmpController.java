@@ -7,9 +7,13 @@ public class EmpController {
 
 	public static void main(String[] args) {
 		Emp e=new Emp();
+		
 		EmpService es=new EmpService();
+		
 		//es.insertData(e);
 		//es.updateData(e);
-		es.deleteData(e);
+		//es.deleteData(e);
+		//es.fetchSigleData(e);
+		es.fetchAllData(e);
 	}
 }
