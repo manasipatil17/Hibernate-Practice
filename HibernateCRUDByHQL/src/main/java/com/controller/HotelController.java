@@ -9,5 +9,7 @@ public class HotelController {
 		
 		Hotel h=new Hotel();
 		HotelService hs= new HotelService();
+//	    hs.insertData(h);
+		hs.updateData(h);
 	}
 }
