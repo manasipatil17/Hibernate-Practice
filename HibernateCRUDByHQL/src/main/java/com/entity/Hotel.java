@@ -17,6 +17,11 @@ public class Hotel {
 		super();
 		// TODO Auto-generated constructor stub
 	}
+	public Hotel( String menu, int price) {
+		super();
+		this.menu = menu;
+		this.price = price;
+	}
 	public Hotel(int srNo, String menu, int price) {
 		super();
 		this.srNo = srNo;
