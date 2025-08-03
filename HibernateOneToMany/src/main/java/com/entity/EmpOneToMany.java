@@ -30,6 +30,12 @@ public class EmpOneToMany {
 		this.e_id = e_id;
 		this.emp_name = emp_name;
 	}
+	@Override
+	public String toString() {
+		return "EmpOneToMany [e_id=" + e_id + ", emp_name=" + emp_name + "]";
+	}
+	
+	
 	
 	
 }
