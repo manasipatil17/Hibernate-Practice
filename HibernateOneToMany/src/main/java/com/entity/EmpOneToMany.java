@@ -1,12 +1,15 @@
 package com.entity;
 
 import jakarta.persistence.Entity;
+import jakarta.persistence.GeneratedValue;
+import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 
 @Entity
 public class EmpOneToMany {
 
 	@Id
+	@GeneratedValue(strategy=GenerationType.IDENTITY)
 	private int e_id;
 	private String emp_name;
 	public int getE_id() {
