@@ -29,11 +29,11 @@ public class Main {
 		
 		EmpManyToOne e= new EmpManyToOne();
 		e.setName("Manasi");
-	    e.setL(d);
+	    e.setD(d);
 	    ss.persist(e);
 		EmpManyToOne e1= new EmpManyToOne();
 		e1.setName("Ram");
-		e1.setL(d);
+		e1.setD(d);
 	 
 		
 		ss.persist(e1);

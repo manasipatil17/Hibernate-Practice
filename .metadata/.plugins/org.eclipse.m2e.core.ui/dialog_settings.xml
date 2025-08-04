@@ -2,6 +2,7 @@
 <section name="Workbench">
 	<section name="MavenProjectWizardLocationPage">
 		<list key="location">
+			<item value="C:\Users\DELL\OneDrive\Desktop\Manasi Practice\The kiran Academy Phase 2\Hibernate Workspace\HibernateManyToOne\src\main\java\com\main\Main.java"/>
 			<item value="C:\Users\DELL\OneDrive\Desktop\Manasi Practice\The kiran Academy Phase 2\Hibernate Workspace\HibernateDemo\src\main\java\com\controller\UpdateData.java"/>
 		</list>
 		<list key="projectNameTemplate">
@@ -45,6 +46,8 @@
 	</section>
 	<section name="MavenProjectWizardArtifactPage">
 		<list key="groupId">
+			<item value="HibernateOneToMany"/>
+			<item value="HibernateManyToOne"/>
 			<item value="com.demo"/>
 			<item value="HibernateCRUDByMethods"/>
 			<item value="com.tka"/>
@@ -52,8 +55,9 @@
 		<list key="name">
 		</list>
 		<list key="artifactId">
-			<item value="HibernateCRUDByHQL"/>
+			<item value="com.tka"/>
 			<item value="com.demo"/>
+			<item value="HibernateCRUDByHQL"/>
 			<item value="DemoMaven"/>
 		</list>
 		<list key="projectNameTemplate">
